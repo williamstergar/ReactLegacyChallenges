@@ -1,6 +1,8 @@
+// THIS IS THE PARENT COMPONENT
+
 import React from 'react';
-// import CatIndex from './CatIndex'
-import { Container } from 'reactstrap';
+import CatIndex from './CatIndex'
+import { Container } from 'reactstrap'
  
 const Cats = () => {
    return (
@@ -19,10 +21,10 @@ const Cats = () => {
          <li>Ensure there are no errors</li>
         </ul>
         <hr />
-       {/* <CatIndex /> */}
+       <CatIndex />
      </Container>
    );
 
 }
  
-export default Cats;
+export default Cats
